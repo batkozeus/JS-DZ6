@@ -1,0 +1,91 @@
+.wrapper {
+	margin: 40px auto;
+	width: 40%;
+	text-align: center;
+	border: 2px solid gold;
+	border-radius: 15px;
+	padding: 2%;
+	background: #bbecec;
+}
+
+.one {
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	margin: 20px;
+}
+
+.two {
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	margin: 20px;
+	background: url(https://cdn3.iconfinder.com/data/icons/tango-icon-library/48/folder-64.png);
+	background-size: contain;
+}
+
+.hidden {
+	width: 30px;
+	height: 30px;
+	background: cyan;
+	float: left;
+	margin: 5px;
+	transition: all 2s ease;
+}
+
+.clearfix {
+	content: "";
+	clear: both;
+}
+
+.four {
+	width: 100%;
+	height: 250px;
+	background: purple;
+	margin: 5px;
+}
+
+.myImg {
+	background-size: contain;
+}
+
+.five {
+	width: 50px;
+	height: 50px;
+	background: pink;
+	margin: 20px;
+	border: 3px solid black;
+	border-radius: 10px;
+}
+
+.six {
+	width: 98%;
+	height: 150px;
+	background: cadetblue;
+	margin: 4% 1%;
+	position: relative;
+	padding: 5px;
+}
+
+.triger {
+	width: 140px;
+	height: 140px;
+	background: goldenrod;
+	margin: 2px 5px;
+	position: absolute;
+	border: 3px solid black;
+	border-radius: 30px;
+	
+}
+
+.left {
+	left: 0;
+}
+
+.center {
+	left: 34%;
+}
+
+.right {
+	left: 68%;
+}
